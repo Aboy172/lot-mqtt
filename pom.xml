@@ -45,15 +45,27 @@
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-stream</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.paho</groupId>
-            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
-            <version>1.2.5</version>
-        </dependency>
+      <dependency>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <groupId>org.springframework.boot</groupId>
+      </dependency>
+      <dependency>
+        <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+        <groupId>org.eclipse.paho</groupId>
+        <version>1.2.5</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+      <dependency>
+        <artifactId>fastjson</artifactId>
+        <groupId>com.alibaba</groupId>
+        <version>1.2.83</version>
+      </dependency>
+      <dependency>
+        <artifactId>hutool-all</artifactId>
+        <groupId>cn.hutool</groupId>
+        <version>5.8.16</version>
+      </dependency>
+
     </dependencies>
 
     <build>
